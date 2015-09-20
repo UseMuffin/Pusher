@@ -1,0 +1,51 @@
+{
+    "name": "muffin/pusher",
+    "description": "Pusher Webservice (API) for CakePHP 3",
+    "type": "cakephp-plugin",
+    "keywords": [
+        "cakephp",
+        "muffin",
+        "pusher"
+    ],
+    "homepage": "https://github.com/usemuffin/pusher",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jad Bitar",
+            "homepage": "http://jadb.io",
+            "role": "Author"
+        },
+        {
+            "name": "ADmad",
+            "homepage": "https://github.com/ADmad",
+            "role": "Author"
+        },
+        {
+            "name": "Others",
+            "homepage": "https://github.com/usemuffin/pusher/graphs/contributors"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/usemuffin/pusher/issues",
+        "source": "https://github.com/usemuffin/pusher"
+    },
+    "require": {
+        "muffin/webservice": "dev-master",
+        "pusher/pusher-php-server": "~2.2"
+    },
+    "require-dev": {
+        "cakephp/cakephp": "~3.0",
+        "cakephp/cakephp-codesniffer": "2.*",
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Muffin\\Pusher\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Muffin\\Pusher\\Test\\": "tests"
+        }
+    }
+}
