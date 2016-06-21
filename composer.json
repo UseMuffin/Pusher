@@ -30,13 +30,13 @@
         "source": "https://github.com/usemuffin/pusher"
     },
     "require": {
-        "muffin/webservice": "dev-master",
-        "pusher/pusher-php-server": "~2.2"
+        "muffin/webservice": "^1.0",
+        "pusher/pusher-php-server": "^2.4"
     },
     "require-dev": {
-        "cakephp/cakephp": "~3.0",
-        "cakephp/cakephp-codesniffer": "2.*",
-        "phpunit/phpunit": "4.1.*"
+        "cakephp/cakephp": "^3.0",
+        "cakephp/cakephp-codesniffer": "^2.0",
+        "phpunit/phpunit": "^4.1"
     },
     "autoload": {
         "psr-4": {
@@ -46,6 +46,11 @@
     "autoload-dev": {
         "psr-4": {
             "Muffin\\Pusher\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
         }
     }
 }
